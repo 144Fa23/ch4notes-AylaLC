@@ -1,24 +1,17 @@
 /*
-Author: Ayla Campbell
-Date: 09/19/2023
+Author: Ayla Campbell 
+Date: 09/20/2023
 File Name: styles.css
 */
 
-/* Css Reset */
-body,
-header,
-nav,
-main,
-footer,
-h1,
-div,
-img {
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-/* Style rules for body and images */
+/* Style rules for the body and images */
 body {
     background-color: #000;
 }
@@ -31,10 +24,10 @@ img {
 /* Style rule for header */
 header {
     width: 25%;
-    Float: left;
+    float: left;
 }
 
-/* Style for rules for navigation area*/
+/* Style for rules for navigation area */
 nav {
     width: 70%;
     float: right;
@@ -50,7 +43,7 @@ nav ul {
 nav li {
     display: inline-block;
     font-size: 1.5em;
-    font-family: Verdana, Arian, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -76,9 +69,7 @@ main {
     font-weight: bold;
 }
 
-#weights,
-#cardio,
-#training {
+#weights, #cardio, #training {
     width: 29%;
     float: left;
     margin: 0 2%;
